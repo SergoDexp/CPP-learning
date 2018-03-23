@@ -1,12 +1,14 @@
 #include <iostream>
 
 using namespace std;
+
 int main(){
-    cout << "Hello world";
-    cout << "hello gitGutter";   
+    int i=150;
+        
+    for(int i=0;i<10;i++){
+        cout << i << " <- " << endl;
+    }
+    cout << i << " ->" << endl;
+
     return 0;
-}
-int test(){
-    cout << "Hello test";
-    return 10;
 }
